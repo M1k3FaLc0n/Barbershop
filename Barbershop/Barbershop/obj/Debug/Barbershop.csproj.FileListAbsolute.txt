@@ -1,0 +1,6 @@
+C:\Users\Michael\Documents\_Work\Barbershop\Barbershop\Barbershop\bin\Debug\Barbershop.exe.config
+C:\Users\Michael\Documents\_Work\Barbershop\Barbershop\Barbershop\bin\Debug\Barbershop.exe
+C:\Users\Michael\Documents\_Work\Barbershop\Barbershop\Barbershop\bin\Debug\Barbershop.pdb
+C:\Users\Michael\Documents\_Work\Barbershop\Barbershop\Barbershop\obj\Debug\Barbershop.csprojAssemblyReference.cache
+C:\Users\Michael\Documents\_Work\Barbershop\Barbershop\Barbershop\obj\Debug\Barbershop.exe
+C:\Users\Michael\Documents\_Work\Barbershop\Barbershop\Barbershop\obj\Debug\Barbershop.pdb

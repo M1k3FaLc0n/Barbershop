@@ -10,6 +10,7 @@ namespace Barbershop
     {
         public static List<Customer> customers = new List<Customer>();
         public static List<Service> services = new List<Service>();
+        public static List<Employee> employees = new List<Employee>();
 
         public static int find_customer(Customer customer)
         {
@@ -56,6 +57,30 @@ namespace Barbershop
         public static bool add_service(string name, int price)
         {
             return add_service(new Service(name, price));
+        }
+
+        public static int find_emloyee(Employee employee)
+        {
+            for (int i = 0; i < customers.Count; i++)
+            {
+                if (employees[i].is_compare(employee))
+                    return i;
+            }
+            return -1;
+        }
+
+        public static bool add_emloyee(Employee employee)
+        {
+            int employee_index = find_emloyee(employee);
+            if (employee_index != -1)
+                return false;
+            employees.Add(employee);
+            return true;
+        }
+
+        public static bool add_emloyee(string name, string lastname, string position)
+        {
+            return add_emloyee(new Employee(name, lastname, position));
         }
 
         public static void print()
